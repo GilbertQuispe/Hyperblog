@@ -3,3 +3,4 @@ Edad: 45 años
 Lugar Nacimiento: Castrovirreyna
 Estado Civil: Soltero
 Residencia: Huancayo
+Hijo: Francesco
