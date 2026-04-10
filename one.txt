@@ -2,3 +2,4 @@ Nombres y apellidos: Gilbert Antonio Quispe Escobar
 Edad: 45 años
 Lugar Nacimiento: Castrovirreyna
 Estado Civil: Soltero
+Residencia: Huancayo
