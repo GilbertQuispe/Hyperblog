@@ -1,0 +1,80 @@
+:root{
+    --colorprincipal:	#3844f4;
+    --colorsecundario:#3c6098;
+    --colorfuente:white;
+    --colormain:#0780fe;
+    --colorheader:	#4c94e0;
+    --colorfooter: #05b6f3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+body{
+    color: var(--colorfuente);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--colorheader);
+    display: grid;
+    place-content: center;
+    grid-template-columns: 50vw 50vh;
+}
+.header_div{
+    text-align: center;
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--colormain);
+}
+form{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(7, 10vh);
+    /* gap: 1vw; */
+}
+label{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.input_form{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-self: center;
+    margin-left:10%;
+    border-radius:10px;
+}
+.Iorgano{
+    grid-area: 1/2/2/9;
+}
+.Iao{
+    grid-area: 2/2/3/9;
+}
+.Iclasif{
+    grid-area:3/2/4/9;
+}
+.Idescrip{
+    grid-area:4/2/5/9;
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--colorfooter);
+}
